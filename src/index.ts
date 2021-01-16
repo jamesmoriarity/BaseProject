@@ -1,5 +1,5 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
-import SudokuSolver from "./SudokuSolver/SudokuSolver"
+import BaseComponent from "./BaseComponent"
 
-ReactDOM.render(React.createElement(SudokuSolver, null), document.getElementById('pocket'))
+ReactDOM.render(React.createElement(BaseComponent, null), document.getElementById('pocket'))
